@@ -1,0 +1,6 @@
+# From https://github.com/microsoft/devcenter-examples
+
+setupTasks:
+  - task: powershell
+    inputs:
+      command: Add-LocalGroupMember -Group "Administrators" -Member "NT AUTHORITY\Authenticated Users"
